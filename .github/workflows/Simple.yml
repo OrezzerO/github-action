@@ -36,5 +36,7 @@ jobs:
           echo test, and deploy your project.
       - name: List 
         run: |
+          pwd 
           echo $GITHUB_WORKSPACE
+          touch myfile
           ls -ltrh  $GITHUB_WORKSPACE
