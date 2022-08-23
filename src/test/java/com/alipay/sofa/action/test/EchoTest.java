@@ -18,6 +18,6 @@ public class EchoTest {
     @Test
     public void mustFail() {
         String var = "var";
-        Assert.assertEquals("", new Echo().echo(var));
+        Assert.assertEquals("var", new Echo().echo(var));
     }
 }
